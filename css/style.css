@@ -1,0 +1,45 @@
+/* === Navbar Styles === */
+.navbar {
+  display: flex; /* inline-like layout */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: black;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+.project-card {
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 247, 247, 0.1);
+}
+
+/* === Footer === */
+.footer {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+}
+
+span {
+  color: #00bcd4;
+}
