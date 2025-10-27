@@ -1,13 +1,99 @@
+/* body css*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #222;
+  color: #ffffff;
+  font-size: large;
+}
+
+body section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+h2 {
+  size: 2rem;
+  text-transform: uppercase;
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  background-color: #222;
+  color: rgb(255, 254, 254);
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8p #ffffff;
+}
+button :hover {
+  color: #121111;
+  background-color: #00bcd4;
+  width: 180px;
+  height: 60px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px #ffffff;
+}
+
+h1 {
+  color: #00bcd4;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 /* === Navbar Styles === */
 .navbar {
   display: flex; /* inline-like layout */
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background-color: black;
-}
-
-
+  background-color: black;}
 .nav-links {
   list-style: none;
   display: flex;
@@ -31,6 +117,29 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(255, 247, 247, 0.1);
 }
+
+/*hero css*/
+#about .about-ul .about-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+#about .about-ul .about-li li {
+  background-color: #222;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+#about .about-ul .about-li h2 :hover {
+  text-shadow: 0 4px 8px #00bcd4;
+}
+
 
 /* === Footer === */
 .footer {
